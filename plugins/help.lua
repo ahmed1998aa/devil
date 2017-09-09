@@ -4,7 +4,7 @@ function run (msg, matches)
 
 local reply_id = msg ['id']
 if matches[1]==  'help' and is_momod(msg) then
-local omar = [[💡Faeder bot📍
+local omar = [[💡VODKA BOT📍
 
 📍➖➖➖➖➖➖➖📍
 📍¦ h1 :: لعرض اوامر الرفع
@@ -20,9 +20,8 @@ local omar = [[💡Faeder bot📍
 ❕ملاحظه :: بعض الاوامر لا تعمل الا مع (/ # ! ) ارجو الانتباه الئ قوائم الاوامر 🌀
 📍➖➖➖➖➖➖➖📍
 
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Dev :: @U_U_I 💡
 ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -36,7 +35,7 @@ if matches[1]== 'help' and not is_momod(msg) then
     end
 local reply_id = msg ['id']
 if matches[1]==  'h1' and is_momod(msg) then
-local help4 = [[📜 ❗️ Faeder bot ❕
+local help4 = [[📜 ❗️ VODKA BOT ❕
 ✔〰〰〰〰〰〰〰✔
 🔝 اوامر الرفع 🗯
 ➖➖➖➖➖➖➖➖
@@ -47,9 +46,8 @@ local help4 = [[📜 ❗️ Faeder bot ❕
 🗯 admins :: لعرض الادمنيه
 
 ✔〰〰〰〰〰〰〰✔
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Dev :: @U_U_I 💡
 ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -63,7 +61,7 @@ if matches[1]== 'h2' and not is_momod(msg) then
     end
 local reply_id = msg ['id']
 if matches[1]==  'h2' and is_momod(msg) then
-local help3 = [[ 📜 💡Faeder bot 💡
+local help3 = [[ 📜 💡VODKA BOT 💡
 ❗️🔹🔹🔹🔹🔹🔹🔹❗️
 🔝اوامر الحظر والمعلومات 🗯
 ➖➖➖➖➖➖➖➖
@@ -94,9 +92,8 @@ local help3 = [[ 📜 💡Faeder bot 💡
 📍¦ g id :: لعرض ايدي الكروب 
 📍¦ g name :: لعرض اسم الكروب 
 ❗️🔹🔹🔹🔹🔹🔹🔹❗️
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Dev :: @U_U_I 💡
 ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -106,7 +103,7 @@ end
 
 local reply_id = msg ['id']
 if matches[1]==  'h3' and is_momod(msg) then
-local help5 =[[🀄️ 💡Faeder bot 💡
+local help5 =[[🀄️ 💡VODKA BOT 💡
 ➖➖➖➖➖➖➖➖
 🔝 اوامر القفل بالمجموعه 🗯
 ➖➖➖➖➖➖➖➖
@@ -142,9 +139,8 @@ local help5 =[[🀄️ 💡Faeder bot 💡
 📍¦ setflood 5 :: لوضع التكرار
 📍¦ muteslist :: اعدادات الميديا 
 ➖➖➖➖➖➖➖➖
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Bot :: @U_U_I 💡
 
  ]]
 ..'\n' 
@@ -171,9 +167,8 @@ local help2 = [[📜 ❕Faeder bot ❗️
 🌐¦ /write :: لزخرفه النص 
 🌐¦ رد اضف + الكلمه + الرد :: لاضافه رد للبوت
 ❗️🔹🔹🔹🔹🔹🔹🔹❗️
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Bot :: @U_U_I 💡
 ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -182,7 +177,7 @@ reply_msg(reply_id, help2, ok_cb, false)
 end
 local reply_id = msg ['id']
 if matches[1]==  'h5' and is_momod(msg) then
-local help1 = [[📜 ❕Faeder bot ❗️
+local help1 = [[📜 ❕FVODKA BOT️
 ✔〰〰〰〰〰〰〰✔
 🔝 اوامر وضع الترحيب 🗯
 ➖➖➖➖➖➖➖➖
@@ -191,9 +186,8 @@ local help1 = [[📜 ❕Faeder bot ❗️
 💈¦ delwlc :: حذف الترحيب 
 
 ✔〰〰〰〰〰〰〰〰✔
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Dev :: @U_U_I 💡
  ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -203,7 +197,7 @@ end
 
 local reply_id = msg ['id']
 if matches[1]==  'h6' and is_momod(msg) then
-local omar = [[📜 ❕Faeder bot ❗️
+local omar = [[📜 ❕VODKA BOT !
 ❗️🔹🔹🔹🔹🔹🔹🔹❗️
 🔝اوامر_المطورين 💡
 ✵•┈••●◆💈◆●••┈•✵
@@ -223,9 +217,8 @@ local omar = [[📜 ❕Faeder bot ❗️
 💡¦ /p + لتفعيل الملف -: اسم الملف
 💡¦ /p - لتعطيل الملف -: اسم الملف
 ✵•┈••●◆💈◆●••┈•✵
-Dev :: @pro_c9 💡
-Bot :: @ll750kll_bot 💡
-CH :: @Team_faeder 💡
+Dev :: @AHMED1998A 💡
+Dev :: @U_U_I 💡
  ]]
 ..'\n' 
 ..'〰 اسم المجموعة  : '..msg.to.title..'\n'
@@ -234,11 +227,10 @@ reply_msg(reply_id, omar, ok_cb, false)
 end 
 local reply_id = msg ['id']
 if matches[1]==  'المطور' then 
-local omar = [[🌐 Developer Faeder bot ⚜
+local omar = [[🌐 Developer VODKA BOT ⚜
 〰〰〰〰〰〰〰〰
-المطور :: @pro_c9 💡
-للمحظورين :: @ll750kll_bot 💡
-اشترك بقناة المطور لتبدا بطريقك نحو التميز ::   @Team_faeder 💡
+المطور ::  @AHMED1998A 💡
+المطور :: @U_U_I 💡
 〰〰〰〰〰〰〰〰
 ]]
 reply_msg(reply_id, omar, ok_cb, false)

@@ -10,7 +10,6 @@ do local _ = {
     "setwelcome",
     "stats",
     "send",
-    "reply",
     "red",
     "name",
     "mymsg",
@@ -33,7 +32,8 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    259142888
+    138881125,
+    367456085
   }
 }
 return _

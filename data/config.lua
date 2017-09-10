@@ -25,7 +25,6 @@ do local _ = {
     "admin",
     "Devfaeder",
     "banhammer",
-    "lockbots"
   },
   help_text_realm = "",
   help_text_super = "",

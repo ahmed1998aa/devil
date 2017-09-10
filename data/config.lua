@@ -24,7 +24,8 @@ do local _ = {
     "antyspam",
     "admin",
     "Devfaeder",
-    "banhammer"
+    "banhammer",
+    "lockbots"
   },
   help_text_realm = "",
   help_text_super = "",
